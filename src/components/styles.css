@@ -1,0 +1,22 @@
+.arrow{
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.button span{
+    transform: translateX(10%);
+    transition: all 0.4s ease-in-out;
+}
+.button:hover span{
+    transform: translateX(-10%);
+    transition: all 0.4s ease-in-out;
+}
+.button:hover .arrow{
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+.miss_container{
+    background: linear-gradient(white, rgb(253, 242, 236));
+}
+.start_container{
+    background: linear-gradient(rgb(253, 242, 236), #fff);  
+}
